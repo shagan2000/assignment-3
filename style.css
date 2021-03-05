@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #000;
+}
+.container {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.btn {
+	text-decoration: none;
+	border: 2px solid;
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+    line-height: 1;
+    background: none;
+    color: #00c3ff;
+}
+
+.btn:hover,.btn:focus {
+	cursor: pointer;
+    border-color: #ffff1c;
+    color: #ffff1c;
+    transition: all .3s ease-in;
+	transform: translateY(-10%);
+    box-shadow: 0px 4px 12px 1px #ffff1c;
+}
